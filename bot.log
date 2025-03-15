@@ -1,0 +1,253 @@
+2025-03-15 14:30:58,099 - httpx - INFO - HTTP Request: POST https://jhqjesrllxsxdoiezboa.supabase.co/rest/v1/rpc/exec_sql "HTTP/1.1 404 Not Found"
+2025-03-15 14:30:58,384 - httpx - INFO - HTTP Request: POST https://jhqjesrllxsxdoiezboa.supabase.co/rest/v1/rpc/exec_sql "HTTP/1.1 404 Not Found"
+2025-03-15 14:30:58,387 - tweetsync - INFO - Starting bot...
+2025-03-15 14:30:58,388 - discord.client - INFO - logging in using static token
+2025-03-15 14:30:59,866 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 45c349cba59d5f2b702b04c0700bd5e3).
+2025-03-15 14:31:01,869 - tweetsync - INFO - XSniperbot has connected to Discord!
+2025-03-15 14:31:01,869 - tweetsync - INFO - Bot ID: 1350038786754478151
+2025-03-15 14:31:01,870 - tweetsync - INFO - Guilds: []
+2025-03-15 14:31:02,164 - httpx - INFO - HTTP Request: GET https://jhqjesrllxsxdoiezboa.supabase.co/rest/v1/tracked_accounts?select=%2A "HTTP/1.1 200 OK"
+2025-03-15 14:34:43,153 - tweetsync - DEBUG - Discord DEBUG режим включен
+2025-03-15 14:34:43,154 - tweetsync - INFO - Переменные окружения загружены
+2025-03-15 14:34:43,154 - tweetsync - INFO - Discord токен загружен: ВСТАВЬТ...
+2025-03-15 14:34:43,154 - tweetsync - INFO - Настроены интенты: message_content=True, members=False, presences=False
+2025-03-15 14:34:43,160 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-15 14:34:43,160 - httpx - DEBUG - load_verify_locations cafile='/Users/slimbarrett/Desktop/Discord Tweet bot/.venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2025-03-15 14:34:43,192 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-15 14:34:43,192 - httpx - DEBUG - load_verify_locations cafile='/Users/slimbarrett/Desktop/Discord Tweet bot/.venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2025-03-15 14:34:43,222 - httpcore.connection - DEBUG - connect_tcp.started host='jhqjesrllxsxdoiezboa.supabase.co' port=443 local_address=None timeout=5 socket_options=None
+2025-03-15 14:34:43,248 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x107ba83e0>
+2025-03-15 14:34:43,248 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x107b9c7d0> server_hostname='jhqjesrllxsxdoiezboa.supabase.co' timeout=5
+2025-03-15 14:34:43,293 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10774a360>
+2025-03-15 14:34:43,293 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-15 14:34:43,293 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-15 14:34:43,293 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-15 14:34:43,293 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-15 14:34:43,293 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-15 14:34:43,649 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Date', b'Sat, 15 Mar 2025 12:34:43 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'920c0bed0e1fcc2e-VNO'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'sb-gateway-version', b'1'), (b'sb-project-ref', b'jhqjesrllxsxdoiezboa'), (b'X-Content-Type-Options', b'nosniff'), (b'x-envoy-attempt-count', b'1'), (b'x-envoy-upstream-service-time', b'10'), (b'Server', b'cloudflare'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-15 14:34:43,650 - httpx - INFO - HTTP Request: POST https://jhqjesrllxsxdoiezboa.supabase.co/rest/v1/rpc/exec_sql "HTTP/1.1 404 Not Found"
+2025-03-15 14:34:43,650 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-15 14:34:43,651 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-15 14:34:43,651 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-15 14:34:43,651 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-15 14:34:43,652 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-15 14:34:43,653 - httpx - DEBUG - load_verify_locations cafile='/Users/slimbarrett/Desktop/Discord Tweet bot/.venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2025-03-15 14:34:43,690 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-15 14:34:43,691 - httpx - DEBUG - load_verify_locations cafile='/Users/slimbarrett/Desktop/Discord Tweet bot/.venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2025-03-15 14:34:43,718 - httpcore.connection - DEBUG - connect_tcp.started host='jhqjesrllxsxdoiezboa.supabase.co' port=443 local_address=None timeout=5 socket_options=None
+2025-03-15 14:34:43,764 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x107ba9e80>
+2025-03-15 14:34:43,765 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x107b9d8d0> server_hostname='jhqjesrllxsxdoiezboa.supabase.co' timeout=5
+2025-03-15 14:34:43,816 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x107ba9e20>
+2025-03-15 14:34:43,817 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-15 14:34:43,818 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-15 14:34:43,819 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-15 14:34:43,820 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-15 14:34:43,820 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-15 14:34:43,956 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Date', b'Sat, 15 Mar 2025 12:34:43 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'920c0bf07e1fcc30-VNO'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'sb-gateway-version', b'1'), (b'sb-project-ref', b'jhqjesrllxsxdoiezboa'), (b'X-Content-Type-Options', b'nosniff'), (b'x-envoy-attempt-count', b'1'), (b'x-envoy-upstream-service-time', b'0'), (b'Server', b'cloudflare'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-15 14:34:43,956 - httpx - INFO - HTTP Request: POST https://jhqjesrllxsxdoiezboa.supabase.co/rest/v1/rpc/exec_sql "HTTP/1.1 404 Not Found"
+2025-03-15 14:34:43,956 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-15 14:34:43,956 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-15 14:34:43,956 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-15 14:34:43,956 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-15 14:34:43,957 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-03-15 14:34:43,957 - discord.client - DEBUG - on_error has successfully been registered as an event
+2025-03-15 14:34:43,957 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-03-15 14:34:43,957 - tweetsync - INFO - Запуск Discord бота
+2025-03-15 14:34:43,957 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-15 14:34:43,957 - discord.client - INFO - logging in using static token
+2025-03-15 14:34:44,261 - discord.http - DEBUG - GET https://discord.com/api/v10/users/@me with None has returned 401
+2025-03-15 14:34:44,263 - tweetsync - ERROR - Ошибка авторизации Discord: Improper token has been passed.
+2025-03-15 14:34:44,263 - tweetsync - ERROR - Проверьте ваш токен бота в файле .env
+2025-03-15 14:46:21,273 - tweetsync - DEBUG - Discord DEBUG режим включен
+2025-03-15 14:46:21,274 - tweetsync - INFO - Переменные окружения загружены
+2025-03-15 14:46:21,274 - tweetsync - INFO - Discord токен загружен: ВСТАВЬТ...
+2025-03-15 14:46:21,274 - tweetsync - INFO - Настроены интенты: message_content=True, members=False, presences=False
+2025-03-15 14:46:21,281 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-15 14:46:21,281 - httpx - DEBUG - load_verify_locations cafile='/Users/slimbarrett/Desktop/Discord Tweet bot/.venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2025-03-15 14:46:21,311 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-15 14:46:21,311 - httpx - DEBUG - load_verify_locations cafile='/Users/slimbarrett/Desktop/Discord Tweet bot/.venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2025-03-15 14:46:21,338 - httpcore.connection - DEBUG - connect_tcp.started host='jhqjesrllxsxdoiezboa.supabase.co' port=443 local_address=None timeout=5 socket_options=None
+2025-03-15 14:46:21,540 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x107a30710>
+2025-03-15 14:46:21,540 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x107aec950> server_hostname='jhqjesrllxsxdoiezboa.supabase.co' timeout=5
+2025-03-15 14:46:21,631 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x107abb560>
+2025-03-15 14:46:21,631 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-15 14:46:21,632 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-15 14:46:21,632 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-15 14:46:21,632 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-15 14:46:21,632 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-15 14:46:22,053 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Date', b'Sat, 15 Mar 2025 12:46:22 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'920c1cf9fc42cc37-VNO'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'sb-gateway-version', b'1'), (b'sb-project-ref', b'jhqjesrllxsxdoiezboa'), (b'X-Content-Type-Options', b'nosniff'), (b'x-envoy-attempt-count', b'1'), (b'x-envoy-upstream-service-time', b'8'), (b'Server', b'cloudflare'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-15 14:46:22,054 - httpx - INFO - HTTP Request: POST https://jhqjesrllxsxdoiezboa.supabase.co/rest/v1/rpc/exec_sql "HTTP/1.1 404 Not Found"
+2025-03-15 14:46:22,055 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-15 14:46:22,055 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-15 14:46:22,055 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-15 14:46:22,055 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-15 14:46:22,056 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-15 14:46:22,057 - httpx - DEBUG - load_verify_locations cafile='/Users/slimbarrett/Desktop/Discord Tweet bot/.venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2025-03-15 14:46:22,095 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-15 14:46:22,096 - httpx - DEBUG - load_verify_locations cafile='/Users/slimbarrett/Desktop/Discord Tweet bot/.venv/lib/python3.12/site-packages/certifi/cacert.pem'
+2025-03-15 14:46:22,123 - httpcore.connection - DEBUG - connect_tcp.started host='jhqjesrllxsxdoiezboa.supabase.co' port=443 local_address=None timeout=5 socket_options=None
+2025-03-15 14:46:22,157 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x107afde80>
+2025-03-15 14:46:22,157 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x107aeda50> server_hostname='jhqjesrllxsxdoiezboa.supabase.co' timeout=5
+2025-03-15 14:46:22,201 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x107afde20>
+2025-03-15 14:46:22,201 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-03-15 14:46:22,202 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-03-15 14:46:22,202 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-03-15 14:46:22,202 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-03-15 14:46:22,202 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-03-15 14:46:22,447 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Date', b'Sat, 15 Mar 2025 12:46:22 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'920c1cfd69ffcc2d-VNO'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'sb-gateway-version', b'1'), (b'sb-project-ref', b'jhqjesrllxsxdoiezboa'), (b'X-Content-Type-Options', b'nosniff'), (b'x-envoy-attempt-count', b'1'), (b'x-envoy-upstream-service-time', b'1'), (b'Server', b'cloudflare'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-03-15 14:46:22,447 - httpx - INFO - HTTP Request: POST https://jhqjesrllxsxdoiezboa.supabase.co/rest/v1/rpc/exec_sql "HTTP/1.1 404 Not Found"
+2025-03-15 14:46:22,448 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-03-15 14:46:22,448 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-03-15 14:46:22,448 - httpcore.http11 - DEBUG - response_closed.started
+2025-03-15 14:46:22,448 - httpcore.http11 - DEBUG - response_closed.complete
+2025-03-15 14:46:22,449 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-03-15 14:46:22,449 - discord.client - DEBUG - on_error has successfully been registered as an event
+2025-03-15 14:46:22,450 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-03-15 14:46:22,450 - tweetsync - INFO - Запуск Discord бота
+2025-03-15 14:46:22,450 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-15 14:46:22,450 - discord.client - INFO - logging in using static token
+2025-03-15 14:46:22,915 - discord.http - DEBUG - GET https://discord.com/api/v10/users/@me with None has returned 401
+2025-03-15 14:46:22,916 - tweetsync - ERROR - Ошибка авторизации Discord: Improper token has been passed.
+2025-03-15 14:46:22,916 - tweetsync - ERROR - Проверьте ваш токен бота в файле .env
+2025-03-15 14:50:46,307 - tweetsync - DEBUG - Discord DEBUG режим включен
+2025-03-15 14:50:46,550 - tweetsync - INFO - Переменные окружения загружены
+2025-03-15 14:50:46,550 - tweetsync - INFO - Discord токен загружен: MTM1MDA...
+2025-03-15 14:50:46,550 - tweetsync - INFO - Настроены интенты: message_content=True, members=False, presences=False
+2025-03-15 14:50:46,679 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 14:50:47,024 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/tracked_accounts?limit=1 HTTP/1.1" 200 None
+2025-03-15 14:50:47,027 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 14:50:47,587 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/cached_tweets?limit=1 HTTP/1.1" 200 None
+2025-03-15 14:50:47,592 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 14:50:47,940 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/tracked_accounts?limit=1 HTTP/1.1" 200 None
+2025-03-15 14:50:47,944 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 14:50:48,356 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/cached_tweets?limit=1 HTTP/1.1" 200 None
+2025-03-15 14:50:48,362 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-03-15 14:50:48,363 - discord.client - DEBUG - on_error has successfully been registered as an event
+2025-03-15 14:50:48,364 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-03-15 14:50:48,365 - tweetsync - INFO - Запуск Discord бота
+2025-03-15 14:50:48,369 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-15 14:50:48,374 - discord.client - INFO - logging in using static token
+2025-03-15 14:50:48,825 - discord.http - DEBUG - GET https://discord.com/api/v10/users/@me with None has returned 200
+2025-03-15 14:50:48,825 - discord.http - DEBUG - GET /users/@me has found its initial rate limit bucket hash (78bb8553d9352a5a2f89f9def401287a).
+2025-03-15 14:50:48,826 - discord.http - DEBUG - GET https://discord.com/api/v10/users/@me has received {'id': '1350038786754478151', 'username': 'XSniperbot', 'avatar': None, 'discriminator': '5342', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'banner_color': None, 'clan': None, 'primary_guild': None, 'mfa_enabled': False, 'locale': 'en-US', 'premium_type': 0, 'email': None, 'verified': True, 'bio': ''}
+2025-03-15 14:50:49,443 - discord.http - DEBUG - GET https://discord.com/api/v10/oauth2/applications/@me with None has returned 200
+2025-03-15 14:50:49,444 - discord.http - DEBUG - GET /oauth2/applications/@me has found its initial rate limit bucket hash (d28a133af187e91d71d96a223467ce49).
+2025-03-15 14:50:49,444 - discord.http - DEBUG - GET https://discord.com/api/v10/oauth2/applications/@me has received {'id': '1350038786754478151', 'name': 'Tweet', 'icon': None, 'description': '', 'type': None, 'bot': {'id': '1350038786754478151', 'username': 'XSniperbot', 'avatar': None, 'discriminator': '5342', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}, 'summary': '', 'is_monetized': False, 'is_verified': False, 'is_discoverable': False, 'bot_public': True, 'bot_require_code_grant': True, 'install_params': {'scopes': ['applications.commands'], 'permissions': '0'}, 'integration_types_config': {'0': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}, '1': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}}, 'verify_key': 'ffdfe8d4ee4085127d03aa46e64a7844305952418c4203ce25b3710af0df8e9f', 'flags': 565504, 'tags': ['Tweeter', 'bot', 'Discord'], 'hook': True, 'storefront_available': False, 'redirect_uris': ['https://discord.com/oauth2/authorized'], 'interactions_endpoint_url': None, 'role_connections_verification_url': None, 'owner': {'id': '562578963088801792', 'username': 'slimbarrett', 'avatar': 'c3541fd6a66ec7de9f6e0948bd44f37b', 'discriminator': '0', 'public_flags': 0, 'flags': 0, 'banner': None, 'accent_color': 14745568, 'global_name': 'SlimBarrett', 'avatar_decoration_data': None, 'collectibles': None, 'banner_color': '#e0ffe0', 'clan': None, 'primary_guild': None}, 'approximate_guild_count': 0, 'approximate_user_install_count': 0, 'interactions_event_types': [], 'interactions_version': 1, 'explicit_content_filter': 0, 'rpc_application_state': 0, 'store_application_state': 1, 'verification_state': 1, 'integration_public': True, 'integration_require_code_grant': True, 'discoverability_state': 1, 'discovery_eligibility_flags': 226, 'monetization_state': 1, 'verification_eligibility_flags': 91036, 'monetization_eligibility_flags': 181988, 'team': None, 'internal_guild_restriction': 2}
+2025-03-15 14:50:50,065 - discord.gateway - DEBUG - Created websocket connected to wss://gateway.discord.gg/
+2025-03-15 14:50:50,065 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-us-east1-d-hmkn",{"micros":0.0}]']}}
+2025-03-15 14:50:50,066 - discord.gateway - DEBUG - Shard ID None has sent the IDENTIFY payload.
+2025-03-15 14:50:50,262 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:50:50,353 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'XSniperbot', 'primary_guild': None, 'mfa_enabled': False, 'id': '1350038786754478151', 'global_name': None, 'flags': 0, 'email': None, 'discriminator': '5342', 'clan': None, 'bot': True, 'avatar': None}, 'session_type': 'normal', 'session_id': '6ca139012aeba2278be004c57384524b', 'resume_gateway_url': 'wss://gateway-us-east1-d.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['finland', 'stockholm', 'warsaw', 'russia', 'frankfurt'], 'game_relationships': [], 'auth': {}, 'application': {'id': '1350038786754478151', 'flags': 565504}, '_trace': ['["gateway-prd-us-east1-d-hmkn",{"micros":111162,"calls":["id_created",{"micros":881,"calls":[]},"session_lookup_time",{"micros":508,"calls":[]},"session_lookup_finished",{"micros":28,"calls":[]},"discord-sessions-prd-1-219",{"micros":109420,"calls":["start_session",{"micros":79643,"calls":["discord-api-rpc-5ccdc4c7d8-pnlh7",{"micros":68248,"calls":["get_user",{"micros":23853},"get_guilds",{"micros":4964},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":801},"authorized_ip_coro",{"micros":16},"pending_payments",{"micros":566}]}]},"starting_guild_connect",{"micros":40,"calls":[]},"presence_started",{"micros":304,"calls":[]},"guilds_started",{"micros":1,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":29388,"calls":[]},"connect_finished",{"micros":29392,"calls":[]},"build_ready",{"micros":36,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}]']}}
+2025-03-15 14:50:50,354 - discord.client - DEBUG - Dispatching event socket_event_type
+2025-03-15 14:50:50,355 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6ca139012aeba2278be004c57384524b).
+2025-03-15 14:50:50,355 - discord.client - DEBUG - Dispatching event connect
+2025-03-15 14:50:52,357 - discord.client - DEBUG - Dispatching event ready
+2025-03-15 14:50:52,358 - tweetsync - INFO - XSniperbot has connected to Discord!
+2025-03-15 14:50:52,358 - tweetsync - INFO - Bot ID: 1350038786754478151
+2025-03-15 14:50:52,359 - tweetsync - INFO - Guilds: []
+2025-03-15 14:50:52,359 - tweetsync - INFO - Background task check_new_tweets started successfully
+2025-03-15 14:50:52,359 - discord.gateway - DEBUG - Sending "{"op":3,"d":{"activities":[{"flags":0,"type":3,"name":"Twitter","buttons":[]}],"afk":false,"since":0.0,"status":"online"}}" to change status
+2025-03-15 14:50:52,360 - tweetsync - INFO - Bot status set successfully
+2025-03-15 14:50:52,363 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 14:50:52,743 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/tracked_accounts HTTP/1.1" 200 None
+2025-03-15 14:51:31,323 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:51:31,548 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:52:12,588 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:52:12,962 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:52:53,851 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:52:54,164 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:53:35,120 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:53:35,284 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:54:16,378 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:54:16,624 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:54:57,635 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:54:57,904 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:55:38,904 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:55:39,144 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:55:52,369 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 14:55:53,789 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/tracked_accounts HTTP/1.1" 200 None
+2025-03-15 14:56:20,176 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:56:20,359 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:57:01,437 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:57:01,666 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:57:42,691 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:57:42,870 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 14:58:23,954 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 14:58:24,177 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 15:00:20,364 - fix_zsh - INFO - Запуск бота Discord TweetSync с исправлением ошибки zsh...
+2025-03-15 15:00:20,365 - fix_zsh - INFO - Используется Python: /Users/slimbarrett/Desktop/Discord Tweet bot/.venv/bin/python
+2025-03-15 15:00:20,365 - fix_zsh - INFO - Бот запускается...
+2025-03-15 15:00:20,796 - tweetsync - DEBUG - Discord DEBUG режим включен
+2025-03-15 15:00:20,797 - tweetsync - INFO - Переменные окружения загружены
+2025-03-15 15:00:20,797 - tweetsync - INFO - Discord токен загружен: MTM1MDA...
+2025-03-15 15:00:20,797 - tweetsync - INFO - Настроены интенты: message_content=True, members=False, presences=False
+2025-03-15 15:00:20,803 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 15:00:21,817 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/tracked_accounts?limit=1 HTTP/1.1" 200 None
+2025-03-15 15:00:21,824 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 15:00:22,238 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/cached_tweets?limit=1 HTTP/1.1" 200 None
+2025-03-15 15:00:22,245 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 15:00:22,474 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/tracked_accounts?limit=1 HTTP/1.1" 200 None
+2025-03-15 15:00:22,479 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 15:00:22,847 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/cached_tweets?limit=1 HTTP/1.1" 200 None
+2025-03-15 15:00:22,851 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-03-15 15:00:22,853 - discord.client - DEBUG - on_error has successfully been registered as an event
+2025-03-15 15:00:22,855 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-03-15 15:01:04,521 - tweetsync - DEBUG - Discord DEBUG режим включен
+2025-03-15 15:01:04,523 - tweetsync - INFO - Переменные окружения загружены
+2025-03-15 15:01:04,523 - tweetsync - INFO - Discord токен загружен: MTM1MDA...
+2025-03-15 15:01:04,523 - tweetsync - INFO - Настроены интенты: message_content=True, members=False, presences=False
+2025-03-15 15:01:04,530 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 15:01:04,939 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/tracked_accounts?limit=1 HTTP/1.1" 200 None
+2025-03-15 15:01:04,942 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 15:01:05,189 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/cached_tweets?limit=1 HTTP/1.1" 200 None
+2025-03-15 15:01:05,201 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 15:01:05,634 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/tracked_accounts?limit=1 HTTP/1.1" 200 None
+2025-03-15 15:01:05,641 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 15:01:05,962 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/cached_tweets?limit=1 HTTP/1.1" 200 None
+2025-03-15 15:01:05,967 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-03-15 15:01:05,968 - discord.client - DEBUG - on_error has successfully been registered as an event
+2025-03-15 15:01:05,969 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-03-15 15:01:05,969 - tweetsync - INFO - Запуск Discord бота
+2025-03-15 15:01:05,969 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-03-15 15:01:05,970 - discord.client - INFO - logging in using static token
+2025-03-15 15:01:06,593 - discord.http - DEBUG - GET https://discord.com/api/v10/users/@me with None has returned 200
+2025-03-15 15:01:06,593 - discord.http - DEBUG - GET /users/@me has found its initial rate limit bucket hash (78bb8553d9352a5a2f89f9def401287a).
+2025-03-15 15:01:06,593 - discord.http - DEBUG - GET https://discord.com/api/v10/users/@me has received {'id': '1350038786754478151', 'username': 'XSniperbot', 'avatar': None, 'discriminator': '5342', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'banner_color': None, 'clan': None, 'primary_guild': None, 'mfa_enabled': False, 'locale': 'en-US', 'premium_type': 0, 'email': None, 'verified': True, 'bio': ''}
+2025-03-15 15:01:06,986 - discord.http - DEBUG - GET https://discord.com/api/v10/oauth2/applications/@me with None has returned 200
+2025-03-15 15:01:06,986 - discord.http - DEBUG - GET /oauth2/applications/@me has found its initial rate limit bucket hash (d28a133af187e91d71d96a223467ce49).
+2025-03-15 15:01:06,987 - discord.http - DEBUG - GET https://discord.com/api/v10/oauth2/applications/@me has received {'id': '1350038786754478151', 'name': 'Tweet', 'icon': None, 'description': '', 'type': None, 'bot': {'id': '1350038786754478151', 'username': 'XSniperbot', 'avatar': None, 'discriminator': '5342', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}, 'summary': '', 'is_monetized': False, 'is_verified': False, 'is_discoverable': False, 'bot_public': True, 'bot_require_code_grant': True, 'install_params': {'scopes': ['applications.commands'], 'permissions': '0'}, 'integration_types_config': {'0': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}, '1': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}}, 'verify_key': 'ffdfe8d4ee4085127d03aa46e64a7844305952418c4203ce25b3710af0df8e9f', 'flags': 565504, 'tags': ['Tweeter', 'bot', 'Discord'], 'hook': True, 'storefront_available': False, 'redirect_uris': ['https://discord.com/oauth2/authorized'], 'interactions_endpoint_url': None, 'role_connections_verification_url': None, 'owner': {'id': '562578963088801792', 'username': 'slimbarrett', 'avatar': 'c3541fd6a66ec7de9f6e0948bd44f37b', 'discriminator': '0', 'public_flags': 0, 'flags': 0, 'banner': None, 'accent_color': 14745568, 'global_name': 'SlimBarrett', 'avatar_decoration_data': None, 'collectibles': None, 'banner_color': '#e0ffe0', 'clan': None, 'primary_guild': None}, 'approximate_guild_count': 0, 'approximate_user_install_count': 0, 'interactions_event_types': [], 'interactions_version': 1, 'explicit_content_filter': 0, 'rpc_application_state': 0, 'store_application_state': 1, 'verification_state': 1, 'integration_public': True, 'integration_require_code_grant': True, 'discoverability_state': 1, 'discovery_eligibility_flags': 226, 'monetization_state': 1, 'verification_eligibility_flags': 91036, 'monetization_eligibility_flags': 181988, 'team': None, 'internal_guild_restriction': 2}
+2025-03-15 15:01:07,649 - discord.gateway - DEBUG - Created websocket connected to wss://gateway.discord.gg/
+2025-03-15 15:01:07,651 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-us-east1-d-zdf6",{"micros":0.0}]']}}
+2025-03-15 15:01:07,652 - discord.gateway - DEBUG - Shard ID None has sent the IDENTIFY payload.
+2025-03-15 15:01:07,858 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 15:01:07,964 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'XSniperbot', 'primary_guild': None, 'mfa_enabled': False, 'id': '1350038786754478151', 'global_name': None, 'flags': 0, 'email': None, 'discriminator': '5342', 'clan': None, 'bot': True, 'avatar': None}, 'session_type': 'normal', 'session_id': '8ee85493119b8152867a10f5eecfc0f5', 'resume_gateway_url': 'wss://gateway-us-east1-d.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['finland', 'stockholm', 'warsaw', 'russia', 'frankfurt'], 'game_relationships': [], 'auth': {}, 'application': {'id': '1350038786754478151', 'flags': 565504}, '_trace': ['["gateway-prd-us-east1-d-zdf6",{"micros":94624,"calls":["id_created",{"micros":684,"calls":[]},"session_lookup_time",{"micros":2556,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-1-123",{"micros":91152,"calls":["start_session",{"micros":67550,"calls":["discord-api-rpc-5ccdc4c7d8-k8wvh",{"micros":57087,"calls":["get_user",{"micros":5380},"get_guilds",{"micros":5325},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":10},"pending_payments",{"micros":847}]}]},"starting_guild_connect",{"micros":36,"calls":[]},"presence_started",{"micros":3472,"calls":[]},"guilds_started",{"micros":7,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":20069,"calls":[]},"connect_finished",{"micros":20073,"calls":[]},"build_ready",{"micros":11,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}]']}}
+2025-03-15 15:01:07,967 - discord.client - DEBUG - Dispatching event socket_event_type
+2025-03-15 15:01:07,967 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8ee85493119b8152867a10f5eecfc0f5).
+2025-03-15 15:01:07,968 - discord.client - DEBUG - Dispatching event connect
+2025-03-15 15:01:09,970 - discord.client - DEBUG - Dispatching event ready
+2025-03-15 15:01:09,971 - tweetsync - INFO - XSniperbot has connected to Discord!
+2025-03-15 15:01:09,971 - tweetsync - INFO - Bot ID: 1350038786754478151
+2025-03-15 15:01:09,971 - tweetsync - INFO - Guilds: []
+2025-03-15 15:01:09,971 - tweetsync - INFO - Background task check_new_tweets started successfully
+2025-03-15 15:01:09,972 - discord.gateway - DEBUG - Sending "{"op":3,"d":{"activities":[{"flags":0,"type":3,"name":"Twitter","buttons":[]}],"afk":false,"since":0.0,"status":"online"}}" to change status
+2025-03-15 15:01:09,972 - tweetsync - INFO - Bot status set successfully
+2025-03-15 15:01:09,975 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 15:01:10,591 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/tracked_accounts HTTP/1.1" 200 None
+2025-03-15 15:01:48,907 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 15:01:49,084 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 15:02:30,166 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 15:02:30,336 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 15:03:11,427 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 15:03:11,630 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 15:03:52,693 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 15:03:52,889 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 15:04:33,958 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 15:04:34,207 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 15:05:15,235 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 15:05:15,550 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 15:05:56,507 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 15:05:56,697 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2025-03-15 15:06:09,980 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): jhqjesrllxsxdoiezboa.supabase.co:443
+2025-03-15 15:06:11,621 - urllib3.connectionpool - DEBUG - https://jhqjesrllxsxdoiezboa.supabase.co:443 "GET /rest/v1/tracked_accounts HTTP/1.1" 200 None
+2025-03-15 15:06:37,762 - discord.gateway - DEBUG - Keeping shard ID None websocket alive with sequence 1.
+2025-03-15 15:06:38,257 - discord.gateway - DEBUG - For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
